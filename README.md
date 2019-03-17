@@ -1,0 +1,3 @@
+-- clone the repository
+-- go to the directory and run `composer install`
+-- run the url in browser
