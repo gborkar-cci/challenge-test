@@ -50,8 +50,8 @@ class Helper {
 
     public function getStringForNumberSingleIF($num)
     {
-        $isMulipleOf3 = (0 === $num % 3);
-        $isMulipleOf5 = (0 === $num % 5);
+        $isMulipleOf3 = (0 === $num % $this->intThree);
+        $isMulipleOf5 = (0 === $num % $this->intFive);
 
         if ($isMulipleOf3 && $isMulipleOf5) {  
             return $num . " - Kadeeans.";
